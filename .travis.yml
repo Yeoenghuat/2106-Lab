@@ -1,7 +1,7 @@
 language: android
 
-before_install:
-    - chmod +x ./gradlew
+#before_install:
+#    - chmod +x ./gradlew
 
 android:
   components:
@@ -29,5 +29,5 @@ android:
     - sys-img-armeabi-v7a-android-23
     - sys-img-x86-android-23    
 
-script: 
-    - "./gradlew build"
+#script: 
+#    - "./gradlew build"
