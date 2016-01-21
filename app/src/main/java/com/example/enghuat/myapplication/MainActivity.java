@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        Log.w("hello", "test");
+        Log.w("MainActivity", "Attack of the killer");
     }
 
     @Override
